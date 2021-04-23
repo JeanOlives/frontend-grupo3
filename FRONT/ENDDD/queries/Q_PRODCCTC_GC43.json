@@ -1,0 +1,139 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_PRODCCTC_GC43_753",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_PRODCCTC_GC43",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_PRODUCTOO_263",
+	"mainEntityModule": "FRONT",
+	"mainEntityName": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/Entities/EN_PRODUCTOO_263/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/ENDDD/Queries/Q_PRODCCTC_GC43/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_PRODUCTOO_263.json#/attributes/AT92_NOMBREYQ263"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODC3GCCT188_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_PRODUCTOO_263.json#/attributes/AT67_CODIGOGB263"
+			},
+			"attributeQuery": "codigo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODCCC4CT752_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "estado",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_PRODUCTOO_263.json#/attributes/AT46_ESTADOVC263"
+			},
+			"attributeQuery": "estado",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODCCTTGT354_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "precio",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_PRODUCTOO_263.json#/attributes/AT35_PRECIOOS263"
+			},
+			"attributeQuery": "precio",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODCTT3GG816_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FRONT",
+				"subModuleId": "ENDDD"
+			}
+		}
+	]
+}

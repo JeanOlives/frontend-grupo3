@@ -1,0 +1,160 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_DETACRUA_DQ58_201",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_DETACRUA_DQ58",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_DETALLETA_580",
+	"mainEntityModule": "FRONT",
+	"mainEntityName": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/Entities/EN_DETALLETA_580/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/ENDDD/Queries/Q_DETACRUA_DQ58/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "precio",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_DETALLETA_580.json#/attributes/AT41_PRECIOIZ580"
+			},
+			"attributeQuery": "precio",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_DETAC5UD5R134_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "producto",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_DETALLETA_580.json#/attributes/AT58_PRODUCOO580"
+			},
+			"attributeQuery": "producto",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_DETACA5QR8265_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cantidad",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_DETALLETA_580.json#/attributes/AT58_CANTIDAD580"
+			},
+			"attributeQuery": "cantidad",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_DETACA8D5D302_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "subtotal",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_DETALLETA_580.json#/attributes/AT74_SUBTOTAA580"
+			},
+			"attributeQuery": "subtotal",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_DETACDURD5440_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigoProducto",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_DETALLETA_580.json#/attributes/AT75_CODIGOOU580"
+			},
+			"attributeQuery": "codigoProducto",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_DETACQQA5A201_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FRONT",
+				"subModuleId": "ENDDD"
+			}
+		}
+	]
+}

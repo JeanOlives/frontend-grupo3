@@ -1,0 +1,46 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_DETACRUA_DQ58",
+		"controlName": "DetalleFacturaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FRONT/ENDDD/queries/Q_DETACRUA_DQ58.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "DetalleFactura",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONECLWLDA_512877",
+		"controlName": "VA_VABUTTONECLWLDA_512877",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Factura",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONFKUAKJO_460877",
+		"controlName": "VA_VABUTTONFKUAKJO_460877",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Factura",
+		"eventsType": "visualAttributeEventType"
+	}
+]

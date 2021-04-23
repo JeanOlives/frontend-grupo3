@@ -1,0 +1,36 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTESS_736",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		},
+		{
+			"entityId": "EN_DETALLETA_580",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		},
+		{
+			"entityId": "EN_FACTURARY_191",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		},
+		{
+			"entityId": "EN_TOTALZFUD_518",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "FRONT",
+			"queryId": "Q_DETACRUA_DQ58",
+			"related": false,
+			"subModuleId": "ENDDD"
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+	],
+	"name": "BLI_MostarProducto",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3203_bli_mostarproducto",
+	"patternName": "BLI_MostarProducto",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "fc2bee7d-374f-4d3d-bfc1-960dd199a840",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "select\r\n\t\t\u0027S_codigo\u0027        =   pro_codigo,\r\n\t\t\u0027S_nombre\u0027        =   pro_nombre,\r\n\t\t\u0027S_precio\u0027        =   pro_precio,\r\n\t\t\u0027S_estado\u0027        =   pro_estado\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "fc2bee7d-374f-4d3d-bfc1-960dd199a840",
+			"columns": [
+				{
+					"attributeId": "AT67_CODIGOGB263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "S_codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT92_NOMBREYQ263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "S_nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT35_PRECIOOS263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "S_precio",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT46_ESTADOVC263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "S_estado",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PRODUCTOO_263",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "Producto"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "master.sp_gr3_producto",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

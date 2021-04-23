@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_PRODUCTOO_263",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "Producto"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030022"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "AT67_CODIGOGB263",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_PRODUCTOO_263",
+			"format": "",
+			"name": "@i_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_BuscarProducto",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3159_bli_buscarproducto",
+	"patternName": "BLI_BuscarProducto",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "fab36bd0-e92b-4d41-9fab-610e87c91f3a",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": true,
+			"numberQuery": 2,
+			"queryName": "select\r\n\t\t\u0027Q_codigo\u0027= pro_codigo,\r\n\t\t\u0027Q_nombre\u0027=pro_nombre,\r\n\t\t\u0027Q_precio\u0027=pro_precio,\r\n\t\t\u0027Q_estado\u0027=pro_estado\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "fab36bd0-e92b-4d41-9fab-610e87c91f3a",
+			"columns": [
+				{
+					"attributeId": "AT67_CODIGOGB263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "Q_codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT92_NOMBREYQ263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "Q_nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT35_PRECIOOS263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "Q_precio",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT46_ESTADOVC263",
+					"entityId": "EN_PRODUCTOO_263",
+					"format": "",
+					"name": "Q_estado",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": true
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PRODUCTOO_263",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "Producto"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "master.sp_gr3_producto",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

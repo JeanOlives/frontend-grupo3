@@ -1,0 +1,140 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_BUSCARCIE_385",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "BuscarCliente"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030020"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "AT98_NOMBRERR385",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_BUSCARCIE_385",
+			"format": "",
+			"name": "@i_nombre",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "CONSTANT",
+			"value": "0"
+		}
+	],
+	"name": "BLI_BuscarCliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI4620_bli_buscarcliente",
+	"patternName": "BLI_BuscarCliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "c9cf23c9-e294-4bbc-a4e8-db8763ca8e98",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "select\r\n   \t\t\u0027cedula\u0027\t=cli_cedula,\r\n   \t\t\u0027nombre\u0027 \t=cli_nombre,\r\n   \t\t\u0027apellido\u0027\t=cli_apellido,\r\n   \t\t\u0027direccion\u0027\t=cli_direccion,\r\n   \t\t\u0027telefono\u0027\t=cli_telefono\r\n   \tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "c9cf23c9-e294-4bbc-a4e8-db8763ca8e98",
+			"columns": [
+				{
+					"attributeId": "AT20_CEDULADQ736",
+					"entityId": "EN_CLIENTESS_736",
+					"format": "",
+					"name": "cedula",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT62_NOMBREBT736",
+					"entityId": "EN_CLIENTESS_736",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT63_APELLIDO736",
+					"entityId": "EN_CLIENTESS_736",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT13_DIRECCNN736",
+					"entityId": "EN_CLIENTESS_736",
+					"format": "",
+					"name": "direccion",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT26_TELEFONN736",
+					"entityId": "EN_CLIENTESS_736",
+					"format": "",
+					"name": "telefono",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTESS_736",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_gr3_cliente",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

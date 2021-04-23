@@ -1,0 +1,167 @@
+{
+	"FRONT": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTESS_736",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI2135_bli_insertarcliente",
+			"nameBli": "BLI_InsertarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_263",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_263",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3159_bli_buscarproducto",
+			"nameBli": "BLI_BuscarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_263",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3203_bli_mostarproducto",
+			"nameBli": "BLI_MostarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTESS_736",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3835_bli_mostarcliente",
+			"nameBli": "BLI_MostarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTESS_736",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4302_bli_actualizarcliente",
+			"nameBli": "BLI_ActualizarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_BUSCARCIE_385",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTESS_736",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI4620_bli_buscarcliente",
+			"nameBli": "BLI_BuscarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_263",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5399_bli_actualizarproducto",
+			"nameBli": "BLI_ActualizarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTOO_263",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6230_bli_insertarproducto",
+			"nameBli": "BLI_InsertarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTESS_736",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI9836_bli_eliminarcliente",
+			"nameBli": "BLI_EliminarCliente"
+		}
+	]
+}

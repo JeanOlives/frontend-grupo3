@@ -1,0 +1,135 @@
+{
+	"filename": "D:\\Escritorio\\CapacitacionCMC\\CobisHome\\coversp\\SPS\\sp_gr3_producto.sql",
+	"procedure": {
+		"database": "master",
+		"name": "sp_gr3_producto",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_codigo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "money",
+				"direction": "in",
+				"name": "@i_precio"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "fc2bee7d-374f-4d3d-bfc1-960dd199a840",
+				"columns": [
+					"S_codigo",
+					"S_nombre",
+					"S_precio",
+					"S_estado"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027S_codigo\u0027        =   pro_codigo,\r\n\t\t\u0027S_nombre\u0027        =   pro_nombre,\r\n\t\t\u0027S_precio\u0027        =   pro_precio,\r\n\t\t\u0027S_estado\u0027        =   pro_estado\r\n\tfrom"
+			},
+			{
+				"_idQuery": "fab36bd0-e92b-4d41-9fab-610e87c91f3a",
+				"columns": [
+					"Q_codigo",
+					"Q_nombre",
+					"Q_precio",
+					"Q_estado"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027Q_codigo\u0027= pro_codigo,\r\n\t\t\u0027Q_nombre\u0027=pro_nombre,\r\n\t\t\u0027Q_precio\u0027=pro_precio,\r\n\t\t\u0027Q_estado\u0027=pro_estado\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_codigo"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "char",
+				"name": "@w_estado"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_pr_valido"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

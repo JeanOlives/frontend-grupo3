@@ -1,0 +1,23 @@
+{
+	"EN_CLIENTESS_736": {
+		"queries": {
+			"Q_CLIETTTN_SG94": {
+				"$ref": "../ENDDD/queries/Q_CLIETTTN_SG94.json#"
+			}
+		}
+	},
+	"EN_DETALLETA_580": {
+		"queries": {
+			"Q_DETACRUA_DQ58": {
+				"$ref": "../ENDDD/queries/Q_DETACRUA_DQ58.json#"
+			}
+		}
+	},
+	"EN_PRODUCTOO_263": {
+		"queries": {
+			"Q_PRODCCTC_GC43": {
+				"$ref": "../ENDDD/queries/Q_PRODCCTC_GC43.json#"
+			}
+		}
+	}
+}

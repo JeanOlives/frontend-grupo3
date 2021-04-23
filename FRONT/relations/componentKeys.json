@@ -1,0 +1,57 @@
+{
+	"ENDDD": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FRONTCKYWUYUY_796": {
+				"name": "ProductoForm"
+			},
+			"T_FRONTKNVSTNQU_714": {
+				"name": "ClienteForm"
+			},
+			"T_FRONTKRDHZFNX_407": {
+				"name": "IngresarProductoForm"
+			},
+			"T_FRONTRSWJDXFZ_368": {
+				"name": "BuscarProductoForm"
+			},
+			"T_FRONTTOIWYMVS_510": {
+				"name": "FacturacionForm"
+			},
+			"T_FRONTWHPCDUTR_282": {
+				"name": "BuscarClienteForm"
+			}
+		},
+		"Queries": {
+			"Q_CLIETTTN_SG94": {
+				"name": "ClienteQuery"
+			},
+			"Q_DETACRUA_DQ58": {
+				"name": "DetalleFacturaQuery"
+			},
+			"Q_PRODCCTC_GC43": {
+				"name": "ProductoQuery"
+			}
+		}
+	},
+	"Entities": {
+		"EN_BUSCARCIE_385": {
+			"name": "BuscarCliente"
+		},
+		"EN_CLIENTESS_736": {
+			"name": "Cliente"
+		},
+		"EN_DETALLETA_580": {
+			"name": "DetalleFactura"
+		},
+		"EN_FACTURARY_191": {
+			"name": "Factura"
+		},
+		"EN_PRODUCTOO_263": {
+			"name": "Producto"
+		},
+		"EN_TOTALZFUD_518": {
+			"name": "Total"
+		}
+	}
+}

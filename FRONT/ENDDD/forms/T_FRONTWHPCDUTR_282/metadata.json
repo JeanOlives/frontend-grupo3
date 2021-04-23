@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_BUSCARCIE_385",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		},
+		{
+			"entityId": "EN_CLIENTESS_736",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "FRONT",
+			"queryId": "Q_CLIETTTN_SG94",
+			"related": false,
+			"subModuleId": "ENDDD"
+		}
+	]
+}

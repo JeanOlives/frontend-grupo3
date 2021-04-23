@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODCCTC_GC43",
+		"controlName": "ProductoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FRONT/ENDDD/queries/Q_PRODCCTC_GC43.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "queryEventType"
+	}
+]

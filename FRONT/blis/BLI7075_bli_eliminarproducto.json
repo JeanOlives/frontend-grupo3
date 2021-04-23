@@ -31,7 +31,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "I"
+			"value": "E"
 		},
 		{
 			"attributeId": "AT67_CODIGOGB263",
@@ -43,37 +43,15 @@
 			"name": "@i_codigo",
 			"type": "ATTRIBUTE",
 			"value": ""
-		},
-		{
-			"attributeId": "AT92_NOMBREYQ263",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_PRODUCTOO_263",
-			"format": "",
-			"name": "@i_nombre",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
-			"attributeId": "AT35_PRECIOOS263",
-			"bddType": "money",
-			"dataType": "MONEY",
-			"direction": "in",
-			"entityId": "EN_PRODUCTOO_263",
-			"format": "",
-			"name": "@i_precio",
-			"type": "ATTRIBUTE",
-			"value": ""
 		}
 	],
-	"name": "BLI_InsertarProducto",
+	"name": "BLI_EliminarProducto",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI6230_bli_insertarproducto",
-	"patternName": "BLI_InsertarProducto",
+	"patternId": "BLI7075_bli_eliminarproducto",
+	"patternName": "BLI_EliminarProducto",
 	"patternType": "Bli",
 	"queries": [
 	],

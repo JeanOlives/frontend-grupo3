@@ -82,7 +82,7 @@
 	"returnEntity": [
 	],
 	"serverName": "CENTRAL",
-	"serviceID": "master.sp_gr3_producto",
+	"serviceID": "cobis.sp_gr3_producto",
 	"type": "SP",
 	"typeMapping": "MAPJava"
 }

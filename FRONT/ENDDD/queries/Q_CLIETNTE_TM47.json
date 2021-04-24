@@ -1,0 +1,181 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIETNTE_TM47_420",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIETNTE_TM47",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTESS_736",
+	"mainEntityModule": "FRONT",
+	"mainEntityName": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/Entities/EN_CLIENTESS_736/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/ENDDD/Queries/Q_CLIETNTE_TM47/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_CLIENTESS_736.json#/attributes/AT63_APELLIDO736"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIET4M744529_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "direccion",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_CLIENTESS_736.json#/attributes/AT13_DIRECCNN736"
+			},
+			"attributeQuery": "direccion",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETETE47304_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_CLIENTESS_736.json#/attributes/AT26_TELEFONN736"
+			},
+			"attributeQuery": "telefono",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETMTTNN973_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_CLIENTESS_736.json#/attributes/AT62_NOMBREBT736"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETN77NN367_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "estado",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_CLIENTESS_736.json#/attributes/AT91_ESTADOCH736"
+			},
+			"attributeQuery": "estado",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETTTT7E294_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_CLIENTESS_736.json#/attributes/AT20_CEDULADQ736"
+			},
+			"attributeQuery": "cedula",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIETTTTTE765_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FRONT",
+				"subModuleId": "ENDDD"
+			}
+		}
+	]
+}

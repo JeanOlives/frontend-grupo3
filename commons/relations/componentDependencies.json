@@ -232,14 +232,14 @@
 				"LBL_FRONT_NOMBRELFH_69371"
 			],
 			"queries": {
-				"Q_CLIETTTN_SG94": [
+				"Q_CLIETNTE_TM47": [
 					"",
 					"",
-					"QM_CLIET9N944108_02",
-					"QM_CLIET9STSG561_04",
-					"QM_CLIETNTT44669_05",
-					"QM_CLIETSG9S9409_01",
-					"QM_CLIETSGG9T543_03"
+					"QM_CLIET4M744529_05",
+					"QM_CLIETETE47304_01",
+					"QM_CLIETMTTNN973_03",
+					"QM_CLIETN77NN367_04",
+					"QM_CLIETTTTTE765_02"
 				]
 			},
 			"subForms": [
@@ -247,6 +247,10 @@
 		}
 	},
 	"Queries": {
+		"Q_CLIETNTE_TM47": {
+			"labels": [
+			]
+		},
 		"Q_CLIETTTN_SG94": {
 			"labels": [
 			]

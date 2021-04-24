@@ -1,14 +1,6 @@
 {
 	"databaseType": "Sybase",
 	"inputEntity": [
-		{
-			"entityId": "EN_BUSCARCIE_385",
-			"module": {
-				"moduleId": "FRONT",
-				"moduleName": "FRONT"
-			},
-			"name": "BuscarCliente"
-		}
 	],
 	"inputParameters": [
 		{
@@ -38,11 +30,11 @@
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "EN_BUSCARCIE_385",
+			"entityId": "",
 			"format": "",
 			"name": "@i_nombre",
-			"type": "ATTRIBUTE",
-			"value": ""
+			"type": "CUSTOM",
+			"value": "buscarCliente"
 		},
 		{
 			"attributeId": "",
@@ -66,17 +58,17 @@
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "c9cf23c9-e294-4bbc-a4e8-db8763ca8e98",
+			"_idQuery": "5817f7c6-a910-4357-91e2-1f84bedb1cde",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
-			"numberQuery": 1,
+			"numberQuery": 2,
 			"queryName": "select\r\n   \t\t\u0027cedula\u0027\t=cli_cedula,\r\n   \t\t\u0027nombre\u0027 \t=cli_nombre,\r\n   \t\t\u0027apellido\u0027\t=cli_apellido,\r\n   \t\t\u0027direccion\u0027\t=cli_direccion,\r\n   \t\t\u0027telefono\u0027\t=cli_telefono\r\n   \tfrom"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "c9cf23c9-e294-4bbc-a4e8-db8763ca8e98",
+			"_idQuery": "5817f7c6-a910-4357-91e2-1f84bedb1cde",
 			"columns": [
 				{
 					"attributeId": "AT20_CEDULADQ736",

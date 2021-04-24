@@ -1,7 +1,7 @@
 {
 	"filename": "D:\\Escritorio\\CapacitacionCMC\\CobisHome\\coversp\\SPS\\sp_gr3_producto.sql",
 	"procedure": {
-		"database": "master",
+		"database": "cobis",
 		"name": "sp_gr3_producto",
 		"owner": "dbo",
 		"parameters": [

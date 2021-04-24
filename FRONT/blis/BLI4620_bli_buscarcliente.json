@@ -30,11 +30,11 @@
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "",
+			"entityId": "EN_BUSCARCIE_385",
 			"format": "",
 			"name": "@i_nombre",
 			"type": "CUSTOM",
-			"value": "nombreCliente"
+			"value": "buscarCliente"
 		},
 		{
 			"attributeId": "",

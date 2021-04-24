@@ -1,16 +1,44 @@
 [
 	{
 		"attributeName": "",
+		"controlId": "VA_VABUTTONUQWOURI_965207",
+		"controlName": "VA_VABUTTONUQWOURI_965207",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "VA_VABUTTONZZNRUDQ_359207",
 		"controlName": "VA_VABUTTONZZNRUDQ_359207",
 		"controlType": "Button",
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 3
+				"executionType": 7
 			}
 		],
 		"entityName": "Producto",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_INGRESAROR_153407",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

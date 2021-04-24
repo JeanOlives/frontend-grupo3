@@ -47,14 +47,42 @@
 		"EN_DETALLETA_580": {
 			"name": "DetalleFactura"
 		},
+		"EN_FACTURAEP_851": {
+			"name": "FacturaReporte"
+		},
 		"EN_FACTURARY_191": {
 			"name": "Factura"
 		},
 		"EN_PRODUCTOO_263": {
 			"name": "Producto"
 		},
+		"EN_RANGOFECC_812": {
+			"name": "RangoFechas"
+		},
 		"EN_TOTALZFUD_518": {
 			"name": "Total"
+		}
+	},
+	"RPRTS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FRONTRXLWDAZW_187": {
+				"name": "FacturasPorFecha"
+			},
+			"T_FRONTXKSRGICE_229": {
+				"name": "FacrurasPorCliente"
+			}
+		},
+		"Queries": {
+			"Q_FACTEEUR_OY44": {
+				"name": "ReporteFechaQuery"
+			},
+			"Q_FACTRUOU_NL30": {
+				"name": "FacturaReporteQuery"
+			}
+		},
+		"SubForms": {
 		}
 	}
 }

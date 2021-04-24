@@ -14,11 +14,19 @@
 			"labels": [
 			]
 		},
+		"EN_FACTURAEP_851": {
+			"labels": [
+			]
+		},
 		"EN_FACTURARY_191": {
 			"labels": [
 			]
 		},
 		"EN_PRODUCTOO_263": {
+			"labels": [
+			]
+		},
+		"EN_RANGOFECC_812": {
 			"labels": [
 			]
 		},
@@ -147,6 +155,50 @@
 			"subForms": [
 			]
 		},
+		"T_FRONTRXLWDAZW_187": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FACTURAEP_851": [
+					"AT11_CODIGOWG851",
+					"AT47_FECHACXB851",
+					"AT56_APELLIDO851",
+					"AT64_MONTOKXP851",
+					"AT86_NOMBREET851"
+				],
+				"EN_RANGOFECC_812": [
+					"AT80_DESDEXEY812",
+					"AT82_HASTASMI812"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FRONT_BUSCARHVB_66161",
+				"LBL_FRONT_DESDERZBH_39375",
+				"LBL_FRONT_HASTAMURF_64660",
+				"LBL_FRONT_NUMEROFUR_55548",
+				"LBL_FRONT_RANGOFEAH_92278",
+				"LBL_FRONT_TOTALRYZQ_31973"
+			],
+			"queries": {
+				"Q_FACTEEUR_OY44": [
+					"",
+					"",
+					"QM_FACTE4YY4E941_05",
+					"QM_FACTEEEY4O230_02",
+					"QM_FACTEOREO4415_01",
+					"QM_FACTEROOO4281_04",
+					"QM_FACTEU4U4R975_03"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_FRONTTOIWYMVS_510": {
 			"blis": [
 			],
@@ -244,6 +296,48 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_FRONTXKSRGICE_229": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTESS_736": [
+					"AT20_CEDULADQ736"
+				],
+				"EN_FACTURAEP_851": [
+					"AT11_CODIGOWG851",
+					"AT47_FECHACXB851",
+					"AT56_APELLIDO851",
+					"AT64_MONTOKXP851",
+					"AT86_NOMBREET851"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FRONT_BUSCARHVB_66161",
+				"LBL_FRONT_CEDULAAGM_72503",
+				"LBL_FRONT_FACTURAOP_84217",
+				"LBL_FRONT_NUMEROFUR_55548",
+				"LBL_FRONT_TOTALRYZQ_31973"
+			],
+			"queries": {
+				"Q_FACTRUOU_NL30": [
+					"",
+					"",
+					"QM_FACTR3UUOL536_04",
+					"QM_FACTRN033U527_01",
+					"QM_FACTRULLU0709_05",
+					"QM_FACTRULNUU921_03",
+					"QM_FACTRUNUN3524_02"
+				]
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
@@ -256,6 +350,14 @@
 			]
 		},
 		"Q_DETACRUA_DQ58": {
+			"labels": [
+			]
+		},
+		"Q_FACTEEUR_OY44": {
+			"labels": [
+			]
+		},
+		"Q_FACTRUOU_NL30": {
 			"labels": [
 			]
 		},

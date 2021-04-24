@@ -10,10 +10,14 @@
 				{
 					"subModuleId": "ENDDD",
 					"subModuleName": "END"
+				},
+				{
+					"subModuleId": "RPRTS",
+					"subModuleName": "REPORTES"
 				}
 			]
 		}
 	],
 	"projectName": "GRUPO3",
-	"subModuleId": "ENDDD"
+	"subModuleId": "RPRTS"
 }

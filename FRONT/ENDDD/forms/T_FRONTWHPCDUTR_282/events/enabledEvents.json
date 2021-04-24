@@ -14,5 +14,19 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_GV47_WDR34",
+		"controlName": "QV_GV47_WDR34",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowSelecting",
+				"executionType": 1
+			}
+		],
+		"entityName": "Cliente",
+		"eventsType": "queryViewEventType"
 	}
 ]

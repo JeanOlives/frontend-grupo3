@@ -14,19 +14,5 @@
 		],
 		"entityName": "Cliente",
 		"eventsType": "queryEventType"
-	},
-	{
-		"attributeName": "",
-		"controlId": "VA_VABUTTONWIAKZDQ_804247",
-		"controlName": "VA_VABUTTONWIAKZDQ_804247",
-		"controlType": "Button",
-		"customEvents": [
-			{
-				"eventName": "executeCommand",
-				"executionType": 3
-			}
-		],
-		"entityName": "BuscarCliente",
-		"eventsType": "visualAttributeEventType"
 	}
 ]

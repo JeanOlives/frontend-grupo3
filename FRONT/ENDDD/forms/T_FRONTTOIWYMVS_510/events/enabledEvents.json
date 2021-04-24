@@ -37,7 +37,7 @@
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 3
+				"executionType": 1
 			}
 		],
 		"entityName": "Factura",

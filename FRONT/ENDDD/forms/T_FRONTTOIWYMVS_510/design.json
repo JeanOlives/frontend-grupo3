@@ -552,14 +552,8 @@
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
 										"eventActions": [
-											{
-												"actionArgs": [
-												],
-												"actionId": "CUSTOM",
-												"actionType": "CUSTOM"
-											}
 										],
-										"executionType": 3,
+										"executionType": 1,
 										"filter": null,
 										"isEnabled": true,
 										"visualAttributeEventType": {

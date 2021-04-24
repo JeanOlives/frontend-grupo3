@@ -16,6 +16,16 @@
 			}
 		}
 	},
+	"EN_FACTURAEP_851": {
+		"queries": {
+			"Q_FACTEEUR_OY44": {
+				"$ref": "../RPRTS/queries/Q_FACTEEUR_OY44.json#"
+			},
+			"Q_FACTRUOU_NL30": {
+				"$ref": "../RPRTS/queries/Q_FACTRUOU_NL30.json#"
+			}
+		}
+	},
 	"EN_PRODUCTOO_263": {
 		"queries": {
 			"Q_PRODCCTC_GC43": {

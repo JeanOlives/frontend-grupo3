@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_FACTRUOU_NL30",
+		"controlName": "FacturaReporteQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FRONT/RPRTS/queries/Q_FACTRUOU_NL30.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "FacturaReporte",
+		"eventsType": "queryEventType"
+	}
+]

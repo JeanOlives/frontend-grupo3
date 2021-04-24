@@ -1,0 +1,160 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_FACTRUOU_NL30_296",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_FACTRUOU_NL30",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_FACTURAEP_851",
+	"mainEntityModule": "FRONT",
+	"mainEntityName": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/Entities/EN_FACTURAEP_851/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FRONT/relations/componentKeys.json#/RPRTS/Queries/Q_FACTRUOU_NL30/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "monto",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_FACTURAEP_851.json#/attributes/AT64_MONTOKXP851"
+			},
+			"attributeQuery": "monto",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTR3UUOL536_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_FACTURAEP_851.json#/attributes/AT11_CODIGOWG851"
+			},
+			"attributeQuery": "codigo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTRN033U527_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_FACTURAEP_851.json#/attributes/AT86_NOMBREET851"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTRULLU0709_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_FACTURAEP_851.json#/attributes/AT56_APELLIDO851"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTRULNUU921_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "fecha",
+			"attribute": {
+				"$ref": "../../../FRONT/entities/EN_FACTURAEP_851.json#/attributes/AT47_FECHACXB851"
+			},
+			"attributeQuery": "fecha",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTRUNUN3524_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FRONT",
+				"subModuleId": "RPRTS"
+			}
+		}
+	]
+}

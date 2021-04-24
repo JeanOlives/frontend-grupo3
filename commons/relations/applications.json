@@ -7,61 +7,65 @@
 				{
 					"generated": 4,
 					"moduleId": "FRONT",
-					"moduleName": "FRONT",
 					"name": "ProductoForm",
 					"subModuleId": "ENDDD",
-					"subModuleName": "END",
 					"taskId": "T_FRONTCKYWUYUY_796",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "FRONT",
-					"moduleName": "FRONT",
 					"name": "ClienteForm",
 					"subModuleId": "ENDDD",
-					"subModuleName": "END",
 					"taskId": "T_FRONTKNVSTNQU_714",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "FRONT",
-					"moduleName": "FRONT",
 					"name": "IngresarProductoForm",
 					"subModuleId": "ENDDD",
-					"subModuleName": "END",
 					"taskId": "T_FRONTKRDHZFNX_407",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "FRONT",
-					"moduleName": "FRONT",
 					"name": "BuscarProductoForm",
 					"subModuleId": "ENDDD",
-					"subModuleName": "END",
 					"taskId": "T_FRONTRSWJDXFZ_368",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "FRONT",
+					"name": "FacturasPorFecha",
+					"subModuleId": "RPRTS",
+					"taskId": "T_FRONTRXLWDAZW_187",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "FRONT",
-					"moduleName": "FRONT",
 					"name": "FacturacionForm",
 					"subModuleId": "ENDDD",
-					"subModuleName": "END",
 					"taskId": "T_FRONTTOIWYMVS_510",
 					"type": "Simple form"
 				},
 				{
 					"generated": 4,
 					"moduleId": "FRONT",
-					"moduleName": "FRONT",
 					"name": "BuscarClienteForm",
 					"subModuleId": "ENDDD",
-					"subModuleName": "END",
 					"taskId": "T_FRONTWHPCDUTR_282",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "FRONT",
+					"name": "FacrurasPorCliente",
+					"subModuleId": "RPRTS",
+					"taskId": "T_FRONTXKSRGICE_229",
 					"type": "Simple form"
 				}
 			]

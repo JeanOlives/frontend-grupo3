@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_FACTEEUR_OY44",
+		"controlName": "ReporteFechaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FRONT/RPRTS/queries/Q_FACTEEUR_OY44.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "FacturaReporte",
+		"eventsType": "queryEventType"
+	}
+]

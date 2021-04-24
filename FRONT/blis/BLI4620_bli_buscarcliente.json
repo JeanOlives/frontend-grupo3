@@ -101,6 +101,14 @@
 					"name": "direccion",
 					"position": 4,
 					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT26_TELEFONN736",
+					"entityId": "EN_CLIENTESS_736",
+					"format": "",
+					"name": "telefono",
+					"position": 5,
+					"type": "ATTRIBUTE"
 				}
 			],
 			"number": 1,

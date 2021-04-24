@@ -132,34 +132,11 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
-									{
-										"customEventId": "CEVA_010VA_VABUTTONWIAKZDQ_804247_587",
-										"customizationLayer": 0,
-										"customizationLayerDescription": "ECU",
-										"enabled": "T",
-										"eventActions": [
-											{
-												"actionArgs": [
-												],
-												"actionId": "CUSTOM",
-												"actionType": "CUSTOM"
-											}
-										],
-										"executionType": 3,
-										"filter": null,
-										"isEnabled": true,
-										"visualAttributeEventType": {
-											"availableExecutionType": 7,
-											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
-											"eventId": 10,
-											"name": "ExecuteCommand"
-										}
-									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"entityQuery": "EN_CLIENTESS_736",
 								"include": 4095,
 								"isCustomized": false,
 								"label": {
@@ -173,8 +150,9 @@
 								"name": "VA_VABUTTONWIAKZDQ_804247",
 								"options": 0,
 								"order": 2,
-								"queryModule": null,
-								"queryVersion": null,
+								"queryId": "Q_CLIETTTN_SG94",
+								"queryModule": "FRONT",
+								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,

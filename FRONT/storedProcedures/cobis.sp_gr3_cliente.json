@@ -111,7 +111,7 @@
 					"direccion",
 					"telefono"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "select\r\n\t\t\u0027cedula\u0027\t=cli_cedula,\r\n   \t\t\u0027nombre\u0027 \t=cli_nombre,\r\n   \t\t\u0027apellido\u0027\t=cli_apellido,\r\n   \t\t\u0027direccion\u0027\t=cli_direccion,\r\n   \t\t\u0027telefono\u0027\t=cli_telefono\r\n\tfrom"
 			},
 			{
@@ -123,7 +123,7 @@
 					"direccion",
 					"telefono"
 				],
-				"editMode": true,
+				"editMode": false,
 				"queryText": "select\r\n   \t\t\u0027cedula\u0027\t=cli_cedula,\r\n   \t\t\u0027nombre\u0027 \t=cli_nombre,\r\n   \t\t\u0027apellido\u0027\t=cli_apellido,\r\n   \t\t\u0027direccion\u0027\t=cli_direccion,\r\n   \t\t\u0027telefono\u0027\t=cli_telefono\r\n   \tfrom"
 			}
 		],

@@ -93,11 +93,6 @@
 		{
 			"entities": {
 				"inputEntity": [
-					{
-						"entityId": "EN_BUSCARCIE_385",
-						"moduleId": "FRONT",
-						"related": false
-					}
 				],
 				"outputEntity": [
 				],

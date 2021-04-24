@@ -1,14 +1,14 @@
 [
 	{
 		"attributeName": "",
-		"controlId": "Q_CLIETTTN_SG94",
-		"controlName": "ClienteQuery",
+		"controlId": "Q_CLIETNTE_TM47",
+		"controlName": "BuscarClienteQuery",
 		"controlType": "Query",
 		"customEvents": [
 			{
 				"eventName": "executeQuery",
 				"executionType": {
-					"$ref": "../../../../../FRONT/ENDDD/queries/Q_CLIETTTN_SG94.json#/customEvents"
+					"$ref": "../../../../../FRONT/ENDDD/queries/Q_CLIETNTE_TM47.json#/customEvents"
 				}
 			}
 		],

@@ -55,7 +55,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FRONT",
 					"moduleName": "FRONT",
 					"name": "BuscarClienteForm",

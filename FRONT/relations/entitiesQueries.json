@@ -1,6 +1,9 @@
 {
 	"EN_CLIENTESS_736": {
 		"queries": {
+			"Q_CLIETNTE_TM47": {
+				"$ref": "../ENDDD/queries/Q_CLIETNTE_TM47.json#"
+			},
 			"Q_CLIETTTN_SG94": {
 				"$ref": "../ENDDD/queries/Q_CLIETTTN_SG94.json#"
 			}

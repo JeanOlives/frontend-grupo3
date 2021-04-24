@@ -23,6 +23,9 @@
 			}
 		},
 		"Queries": {
+			"Q_CLIETNTE_TM47": {
+				"name": "BuscarClienteQuery"
+			},
 			"Q_CLIETTTN_SG94": {
 				"name": "ClienteQuery"
 			},

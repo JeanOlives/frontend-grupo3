@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTESS_736",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		},
+		{
+			"entityId": "EN_FACTURAEP_851",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "FRONT",
+			"queryId": "Q_FACTRUOU_NL30",
+			"related": false,
+			"subModuleId": "RPRTS"
+		}
+	]
+}

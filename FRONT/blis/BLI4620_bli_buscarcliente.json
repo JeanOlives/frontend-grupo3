@@ -26,11 +26,11 @@
 			"value": "Q"
 		},
 		{
-			"attributeId": "AT98_NOMBRERR385",
+			"attributeId": "",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "EN_BUSCARCIE_385",
+			"entityId": "",
 			"format": "",
 			"name": "@i_nombre",
 			"type": "CUSTOM",

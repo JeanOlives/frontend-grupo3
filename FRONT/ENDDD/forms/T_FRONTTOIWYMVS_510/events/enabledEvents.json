@@ -42,5 +42,19 @@
 		],
 		"entityName": "Factura",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_FACTURACON_269510",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "onCloseModal",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]

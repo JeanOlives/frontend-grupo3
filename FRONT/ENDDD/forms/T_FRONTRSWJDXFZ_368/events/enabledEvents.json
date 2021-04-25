@@ -1,2 +1,30 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONCNIUFJL_673401",
+		"controlName": "VA_VABUTTONCNIUFJL_673401",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONPUDBETJ_974401",
+		"controlName": "VA_VABUTTONPUDBETJ_974401",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Producto",
+		"eventsType": "visualAttributeEventType"
+	}
 ]

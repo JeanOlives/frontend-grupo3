@@ -60,7 +60,7 @@
 						"componentStyle": null,
 						"customEvents": [
 						],
-						"enabled": 4095,
+						"enabled": null,
 						"entity": {
 							"$ref": "../../../../FRONT/entities/EN_FACTURAEP_851.json#"
 						},
@@ -123,6 +123,8 @@
 							"query": {
 								"$ref": "../../../../FRONT/RPRTS/queries/Q_FACTEEUR_OY44.json#"
 							},
+							"queryId": "Q_FACTEEUR_OY44",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_ER44_QVF99",

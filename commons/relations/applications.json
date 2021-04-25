@@ -37,7 +37,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "FRONT",
 					"name": "FacturasPorFecha",
 					"subModuleId": "RPRTS",
@@ -61,7 +61,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "FRONT",
 					"name": "FacrurasPorCliente",
 					"subModuleId": "RPRTS",

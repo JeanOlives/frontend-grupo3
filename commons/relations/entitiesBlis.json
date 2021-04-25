@@ -3,6 +3,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_FACTURAEP_851",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI1318_bli_buscarfacturacliente",
+			"nameBli": "BLI_buscarFacturaCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_CLIENTESS_736",
 						"moduleId": "FRONT",
@@ -16,6 +33,23 @@
 			},
 			"idBli": "BLI2135_bli_insertarcliente",
 			"nameBli": "BLI_InsertarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_FACTURAEP_851",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI2321_bli_buscarfacturafechas",
+			"nameBli": "Bli_buscarFacturaFechas"
 		},
 		{
 			"entities": {

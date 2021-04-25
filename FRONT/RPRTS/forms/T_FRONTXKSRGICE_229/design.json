@@ -135,7 +135,7 @@
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
-								"enabled": null,
+								"enabled": 11,
 								"entityQuery": "EN_FACTURAEP_851",
 								"include": 4095,
 								"isCustomized": false,
@@ -212,7 +212,7 @@
 						"componentStyle": null,
 						"customEvents": [
 						],
-						"enabled": 4095,
+						"enabled": null,
 						"entity": {
 							"$ref": "../../../../FRONT/entities/EN_FACTURAEP_851.json#"
 						},
@@ -275,6 +275,8 @@
 							"query": {
 								"$ref": "../../../../FRONT/RPRTS/queries/Q_FACTRUOU_NL30.json#"
 							},
+							"queryId": "Q_FACTRUOU_NL30",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_ZQ30_DLZ30",

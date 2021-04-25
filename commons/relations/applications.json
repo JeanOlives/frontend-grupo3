@@ -45,7 +45,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FRONT",
 					"name": "FacturacionForm",
 					"subModuleId": "ENDDD",

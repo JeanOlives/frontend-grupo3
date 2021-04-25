@@ -158,7 +158,7 @@
 							"allowPagingStr": "F",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -169,10 +169,10 @@
 							"customUrlDialog": null,
 							"deleteCommandEnabled": true,
 							"deleteCommandEnabledStr": "T",
-							"dialogTitleLabelId": null,
+							"dialogTitleLabelId": "LBL_FRONT_BUSCARPTO_23943",
 							"editCommandEnabled": true,
 							"editCommandEnabledStr": "T",
-							"editMode": "0",
+							"editMode": "3",
 							"entityName": {
 								"$ref": "../../../../FRONT/entities/EN_DETALLETA_580.json#/name"
 							},
@@ -189,9 +189,9 @@
 							"insertCommandEnabled": true,
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
-							"modalSize": null,
+							"modalSize": "md",
 							"modeSelection": "None",
-							"moduleIdDialog": null,
+							"moduleIdDialog": "FRONT",
 							"multiSelectEnabledStr": "F",
 							"name": "QV_OZ58_ZJI21",
 							"options": 0,
@@ -207,10 +207,10 @@
 							"queryViewType": "Grid",
 							"rowCommandAppearance": 0,
 							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
+							"subModuleIdDialog": "ENDDD",
+							"taskIdDialog": "T_FRONTRSWJDXFZ_368",
+							"taskVersionDialog": "1.0.0",
+							"typeFormDialog": "forms",
 							"userControl": {
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -219,7 +219,7 @@
 								"type": "I",
 								"userControlId": "Grid"
 							},
-							"viewContainerIdDialog": null
+							"viewContainerIdDialog": "VC_BUSCARPROD_668368"
 						},
 						"queryViewId": "QV_OZ58_ZJI21",
 						"responsiveLayouts": null,

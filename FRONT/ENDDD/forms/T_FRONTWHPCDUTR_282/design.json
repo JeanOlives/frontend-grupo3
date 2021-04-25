@@ -229,16 +229,51 @@
 							"insertCommandEnabledStr": "T",
 							"isCustomized": false,
 							"modalSize": null,
-							"modeSelection": "None",
+							"modeSelection": "Simple",
 							"moduleIdDialog": null,
-							"multiSelectEnabledStr": "F",
+							"multiSelectEnabledStr": "S",
 							"name": "QV_GV47_WDR34",
 							"options": 0,
 							"pageSize": null,
 							"query": {
 								"$ref": "../../../../FRONT/ENDDD/queries/Q_CLIETNTE_TM47.json#"
 							},
+							"queryId": "Q_CLIETNTE_TM47",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowSelecting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_208QV_GV47_WDR34_195",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowSelecting",
+									"options": 0,
+									"queryView": "QV_GV47_WDR34",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos modificados en una grilla sean comprometidos.",
+										"eventId": 208,
+										"name": "RowSelecting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								}
 							],
 							"queryViewId": "QV_GV47_WDR34",
 							"queryViewType": "Grid",

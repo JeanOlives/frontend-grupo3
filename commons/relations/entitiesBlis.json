@@ -195,6 +195,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+					{
+						"entityId": "EN_FACTURARY_191",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8374_bli_reservarfactura",
+			"nameBli": "BLI_reservarFactura"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_CLIENTESS_736",
 						"moduleId": "FRONT",

@@ -21,6 +21,10 @@ task.onCloseModalEvent = function (entities, onCloseModalEventArgs){
         return;
     }
     
+    if(modalHijo === "VC_BUSCARPROD_668368") {
+        onCloseModalEventArgs.commons.api.grid.refresh('QV_OZ58_ZJI21');
+    }
+    
     onCloseModalEventArgs.commons.messageHandler
         .showMessagesInformation('debe ingresar un cliente');
 

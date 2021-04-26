@@ -179,6 +179,33 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_CLIENTESS_736",
+						"moduleId": "FRONT",
+						"related": false
+					},
+					{
+						"entityId": "EN_FACTURARY_191",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+					{
+						"entityId": "EN_FACTURARY_191",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6432_bli_generarfactura",
+			"nameBli": "BLI_generarFactura"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_PRODUCTOO_263",
 						"moduleId": "FRONT",
 						"related": false

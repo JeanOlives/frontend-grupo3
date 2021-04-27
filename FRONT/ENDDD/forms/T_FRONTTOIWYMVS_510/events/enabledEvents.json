@@ -45,6 +45,20 @@
 	},
 	{
 		"attributeName": "",
+		"controlId": "VA_VABUTTONIDSLUTO_896877",
+		"controlName": "",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "Factura",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "VC_FACTURACON_269510",
 		"controlName": "",
 		"controlType": "",

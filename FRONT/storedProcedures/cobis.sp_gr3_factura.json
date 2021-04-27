@@ -1,5 +1,5 @@
 {
-	"filename": "C:\\Users\\User\\Desktop\\New folder\\sp_gr3_factura.sql",
+	"filename": "D:\\Biblioteca\\Escritorio\\Angelica\\CapacitacionCMC\\SPs\\sp_gr3_factura.sql",
 	"procedure": {
 		"database": "cobis",
 		"name": "sp_gr3_factura",
@@ -108,12 +108,24 @@
 		],
 		"queries": [
 			{
-				"_idQuery": "465d6f9c-14d3-482c-8abb-ce9856a6908f",
+				"_idQuery": "8dfd14e6-0a3e-45dc-b49c-fe32619dfc04",
 				"columns": [
 					"{0}"
 				],
 				"editMode": false,
 				"queryText": "select max(cf_codigo) from"
+			},
+			{
+				"_idQuery": "39417636-f98e-43ec-8b58-6dabb11f619e",
+				"columns": [
+					"codigoProducto",
+					"producto",
+					"precio",
+					"cantidad",
+					"subtotal"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\u0027codigoProducto\u0027\t= pr.pro_codigo,\r\n\t\t\u0027producto\u0027\t\t\t\t  = pr.pro_nombre,\r\n\t\t\u0027precio\u0027\t\t\t\t\t = pr.pro_nombre,\r\n\t\t\u0027cantidad\u0027\t\t\t\t   = fd.df_cantidad,\r\n\t\t\u0027subtotal\u0027\t\t\t\t\t= fd.df_subtotal\r\n\t\tfrom"
 			}
 		],
 		"variables": [

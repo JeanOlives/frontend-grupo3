@@ -7,7 +7,8 @@ task.executeCommand.VA_VABUTTONBDBXJGJ_766401 = function(  entities, executeComm
 
     
     //Obtener el valor desde el formulario padre (Formulario de facturación)
-   const codigoFactura = executeCommandEventArgs.commons.api.parentVc.model.Factura.codigo;
+   // const codigoFactura = executeCommandEventArgs.commons.api.parentVc.model.Factura.codigo;
+    entities.Factura.codigo = executeCommandEventArgs.commons.api.parentVc.model.Factura.codigo;
     
     //Obtener el valor de las entidades del grupo Producto
     //let producto =executeCommandEventArgs.commons.api.vc.model.Producto;
@@ -17,13 +18,14 @@ task.executeCommand.VA_VABUTTONBDBXJGJ_766401 = function(  entities, executeComm
     
     
    
-    if(!codigoFactura){
+ /*   if(!codigoFactura){
             executeCommandEventArgs.commons.messageHandler
             .showMessagesInformation('Debe reservar una factura');
         return;
-       }
+       }*/
+       
    //Enviar el codigo a java
-    executeCommandEventArgs.commons.serverParameters.codigoDeFactura = codigoFactura;
+    //executeCommandEventArgs.commons.serverParameters.codigoDeFactura = codigoFactura;
     //executeCommandEventArgs.commons.serverParameters.codigoProducto = codigo;
     
     

@@ -266,6 +266,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_DETALLETA_580",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8857_bli_mostardetalles",
+			"nameBli": "BLI_MostarDetalles"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_CLIENTESS_736",
 						"moduleId": "FRONT",

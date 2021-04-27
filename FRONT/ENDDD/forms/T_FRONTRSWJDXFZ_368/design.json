@@ -82,51 +82,6 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../FRONT/entities/EN_PRODUCTOO_263.json#/attributes/AT63_CANTIDDA263"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": "",
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../FRONT/assets/languages/FRONT.json#/FRONT/LBL/LBL_FRONT_CANTIDADD_76985"
-									},
-									"labelId": "LBL_FRONT_CANTIDADD_76985",
-									"moduleId": "FRONT"
-								},
-								"maxRecords": null,
-								"name": "cantidad",
-								"options": 0,
-								"order": 5,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_CANTIDADDVCMXBX_519401",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
 									"$ref": "../../../../FRONT/entities/EN_PRODUCTOO_263.json#/attributes/AT67_CODIGOGB263"
 								},
 								"attributeValidations": [
@@ -320,6 +275,139 @@
 								"visualAttributeId": "VA_VABUTTONCNIUFJL_673401",
 								"width": null,
 								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../FRONT/entities/EN_DETALLETA_580.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_BUSCARPTUO_937401",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1618",
+						"order": 2,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FRONT/entities/EN_DETALLETA_580.json#/attributes/AT58_CANTIDAD580"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_CANTIDADLYYVFPH_547401_234",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FRONT/assets/languages/FRONT.json#/FRONT/LBL/LBL_FRONT_CANTIDADD_76985"
+									},
+									"labelId": "LBL_FRONT_CANTIDADD_76985",
+									"moduleId": "FRONT"
+								},
+								"maxRecords": null,
+								"name": "cantidad",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CANTIDADLYYVFPH_547401",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FRONT/entities/EN_DETALLETA_580.json#/attributes/AT74_SUBTOTAA580"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FRONT/assets/languages/FRONT.json#/FRONT/LBL/LBL_FRONT_PRECIOTOT_72479"
+									},
+									"labelId": "LBL_FRONT_PRECIOTOT_72479",
+									"moduleId": "FRONT"
+								},
+								"maxRecords": null,
+								"name": "subtotal",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextLabel"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_SUBTOTALPCCABOV_429401",
+								"width": null,
+								"widthComposite": "D"
 							},
 							{
 								"aggregate": null,
@@ -331,7 +419,7 @@
 								"componentStyle": null,
 								"customEvents": [
 									{
-										"customEventId": "CEVA_010VA_VABUTTONPUDBETJ_974401_776",
+										"customEventId": "CEVA_010VA_VABUTTONBDBXJGJ_766401_675",
 										"customizationLayer": 0,
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
@@ -368,9 +456,9 @@
 									"moduleId": "FRONT"
 								},
 								"maxRecords": null,
-								"name": "VA_VABUTTONPUDBETJ_974401",
+								"name": "VA_VABUTTONBDBXJGJ_766401",
 								"options": 0,
-								"order": 6,
+								"order": 3,
 								"queryModule": null,
 								"queryVersion": null,
 								"responsiveLayouts": null,
@@ -382,7 +470,7 @@
 									"userControlId": "Button"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VABUTTONPUDBETJ_974401",
+								"visualAttributeId": "VA_VABUTTONBDBXJGJ_766401",
 								"width": null,
 								"widthComposite": "D"
 							}

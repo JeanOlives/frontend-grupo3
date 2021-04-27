@@ -162,6 +162,28 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_DETALLETA_580",
+						"moduleId": "FRONT",
+						"related": false
+					},
+					{
+						"entityId": "EN_PRODUCTOO_263",
+						"moduleId": "FRONT",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI6208_bli_ingresardetalle",
+			"nameBli": "BLI_ingresarDetalle"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_PRODUCTOO_263",
 						"moduleId": "FRONT",
 						"related": false

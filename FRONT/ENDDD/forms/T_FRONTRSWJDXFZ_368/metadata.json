@@ -1,6 +1,12 @@
 {
 	"entities": [
 		{
+			"entityId": "EN_DETALLETA_580",
+			"isContextEntity": null,
+			"moduleId": "FRONT",
+			"related": false
+		},
+		{
 			"entityId": "EN_PRODUCTOO_263",
 			"isContextEntity": null,
 			"moduleId": "FRONT",

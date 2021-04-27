@@ -1,8 +1,22 @@
 [
 	{
+		"attributeName": "cantidad",
+		"controlId": "VA_CANTIDADLYYVFPH_547401",
+		"controlName": "cantidad",
+		"controlType": "TextInputBox",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "DetalleFactura",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
 		"attributeName": "",
-		"controlId": "VA_VABUTTONCNIUFJL_673401",
-		"controlName": "VA_VABUTTONCNIUFJL_673401",
+		"controlId": "VA_VABUTTONBDBXJGJ_766401",
+		"controlName": "VA_VABUTTONBDBXJGJ_766401",
 		"controlType": "Button",
 		"customEvents": [
 			{
@@ -10,13 +24,13 @@
 				"executionType": 3
 			}
 		],
-		"entityName": "Producto",
+		"entityName": "DetalleFactura",
 		"eventsType": "visualAttributeEventType"
 	},
 	{
 		"attributeName": "",
-		"controlId": "VA_VABUTTONPUDBETJ_974401",
-		"controlName": "VA_VABUTTONPUDBETJ_974401",
+		"controlId": "VA_VABUTTONCNIUFJL_673401",
+		"controlName": "VA_VABUTTONCNIUFJL_673401",
 		"controlType": "Button",
 		"customEvents": [
 			{

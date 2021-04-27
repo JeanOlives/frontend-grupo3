@@ -1,0 +1,107 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_DETALLETA_580",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "DetalleFactura"
+		},
+		{
+			"entityId": "EN_PRODUCTOO_263",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "Producto"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030023"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "A"
+		},
+		{
+			"attributeId": "AT74_SUBTOTAA580",
+			"bddType": "money",
+			"dataType": "MONEY",
+			"direction": "in",
+			"entityId": "EN_DETALLETA_580",
+			"format": "",
+			"name": "@i_subtotal",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cf_codigo",
+			"type": "CUSTOM",
+			"value": "codigoDeFactura"
+		},
+		{
+			"attributeId": "AT58_CANTIDAD580",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_DETALLETA_580",
+			"format": "",
+			"name": "@i_cantidad",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT67_CODIGOGB263",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_PRODUCTOO_263",
+			"format": "",
+			"name": "@i_pro_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_ingresarDetalle",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI6208_bli_ingresardetalle",
+	"patternName": "BLI_ingresarDetalle",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_gr3_factura",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

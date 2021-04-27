@@ -17,12 +17,6 @@
 			"isContextEntity": null,
 			"moduleId": "FRONT",
 			"related": false
-		},
-		{
-			"entityId": "EN_TOTALZFUD_518",
-			"isContextEntity": null,
-			"moduleId": "FRONT",
-			"related": false
 		}
 	],
 	"queries": [

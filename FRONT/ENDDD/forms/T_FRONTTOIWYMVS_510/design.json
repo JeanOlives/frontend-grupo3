@@ -945,7 +945,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../FRONT/entities/EN_TOTALZFUD_518.json#"
+							"$ref": "../../../../FRONT/entities/EN_FACTURARY_191.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_FACTURAOON_319877",
@@ -976,7 +976,7 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "Spacer2435",
+								"name": "",
 								"options": 0,
 								"order": 1,
 								"responsiveLayouts": null,
@@ -1007,7 +1007,7 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "Spacer2594",
+								"name": "",
 								"options": 0,
 								"order": 4,
 								"responsiveLayouts": null,
@@ -1027,7 +1027,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../FRONT/entities/EN_TOTALZFUD_518.json#/attributes/AT49_TOTALMKI518"
+									"$ref": "../../../../FRONT/entities/EN_FACTURARY_191.json#/attributes/AT13_TOTALYIW191"
 								},
 								"attributeValidations": [
 								],
@@ -1070,6 +1070,29 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONIDSLUTO_896877_478",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 3,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -1085,7 +1108,7 @@
 									"moduleId": "FRONT"
 								},
 								"maxRecords": null,
-								"name": "VA_VABUTTONIDSLUTO_896877",
+								"name": "",
 								"options": 0,
 								"order": 5,
 								"queryModule": null,
@@ -1125,7 +1148,7 @@
 									"moduleId": "FRONT"
 								},
 								"maxRecords": null,
-								"name": "VA_VASIMPLELABELLL_600877",
+								"name": "",
 								"options": 0,
 								"order": 2,
 								"responsiveLayouts": null,

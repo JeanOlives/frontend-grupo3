@@ -29,10 +29,6 @@
 		"EN_RANGOFECC_812": {
 			"labels": [
 			]
-		},
-		"EN_TOTALZFUD_518": {
-			"labels": [
-			]
 		}
 	},
 	"Forms": {
@@ -130,9 +126,12 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_DETALLETA_580": [
+					"AT58_CANTIDAD580",
+					"AT74_SUBTOTAA580"
+				],
 				"EN_PRODUCTOO_263": [
 					"AT35_PRECIOOS263",
-					"AT63_CANTIDDA263",
 					"AT67_CODIGOGB263",
 					"AT92_NOMBREYQ263"
 				]
@@ -149,6 +148,7 @@
 				"LBL_FRONT_CDIGOOXUL_89461",
 				"LBL_FRONT_INGRESARR_89162",
 				"LBL_FRONT_NOMBRELFH_69371",
+				"LBL_FRONT_PRECIOTOT_72479",
 				"LBL_FRONT_PRECIOYZD_93429"
 			],
 			"queries": {
@@ -221,10 +221,8 @@
 					"AT75_CODIGOOU580"
 				],
 				"EN_FACTURARY_191": [
+					"AT13_TOTALYIW191",
 					"AT53_CODIGOKY191"
-				],
-				"EN_TOTALZFUD_518": [
-					"AT49_TOTALMKI518"
 				]
 			},
 			"externalEntities": {

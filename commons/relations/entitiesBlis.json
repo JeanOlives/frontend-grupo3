@@ -167,6 +167,11 @@
 						"related": false
 					},
 					{
+						"entityId": "EN_FACTURARY_191",
+						"moduleId": "FRONT",
+						"related": false
+					},
+					{
 						"entityId": "EN_PRODUCTOO_263",
 						"moduleId": "FRONT",
 						"related": false

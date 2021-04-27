@@ -144,6 +144,39 @@
 								{
 									"action": null,
 									"commandImageId": null,
+									"commandName": "RowInserting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_200QV_VD43_EWG54_857",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowInserting",
+									"options": 0,
+									"queryView": "QV_VD43_EWG54",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos insertados en una grilla sean comprometidos",
+										"eventId": 200,
+										"name": "RowInserting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								},
+								{
+									"action": null,
+									"commandImageId": null,
 									"commandName": "RowDeleting",
 									"commandOrder": null,
 									"commandType": 0,

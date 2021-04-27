@@ -5,7 +5,7 @@
 		"forms": {
 			"FRONT": [
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "ProductoForm",
 					"subModuleId": "ENDDD",
@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "ClienteForm",
 					"subModuleId": "ENDDD",
@@ -21,7 +21,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "IngresarProductoForm",
 					"subModuleId": "ENDDD",
@@ -29,7 +29,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "BuscarProductoForm",
 					"subModuleId": "ENDDD",
@@ -37,7 +37,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "FacturasPorFecha",
 					"subModuleId": "RPRTS",
@@ -45,7 +45,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "FacturacionForm",
 					"subModuleId": "ENDDD",
@@ -53,7 +53,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "BuscarClienteForm",
 					"subModuleId": "ENDDD",
@@ -61,7 +61,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FRONT",
 					"name": "FacrurasPorCliente",
 					"subModuleId": "RPRTS",

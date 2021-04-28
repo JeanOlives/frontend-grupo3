@@ -10,14 +10,6 @@
 			"name": "DetalleFactura"
 		},
 		{
-			"entityId": "EN_FACTURARY_191",
-			"module": {
-				"moduleId": "FRONT",
-				"moduleName": "FRONT"
-			},
-			"name": "Factura"
-		},
-		{
 			"entityId": "EN_PRODUCTOO_263",
 			"module": {
 				"moduleId": "FRONT",
@@ -61,11 +53,11 @@
 			"value": ""
 		},
 		{
-			"attributeId": "AT53_CODIGOKY191",
+			"attributeId": "AT75_CODIGOTA580",
 			"bddType": "int",
 			"dataType": "INT",
 			"direction": "in",
-			"entityId": "EN_FACTURARY_191",
+			"entityId": "EN_DETALLETA_580",
 			"format": "",
 			"name": "@i_cf_codigo",
 			"type": "ATTRIBUTE",

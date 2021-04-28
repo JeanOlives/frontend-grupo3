@@ -8,7 +8,8 @@ task.executeCommand.VA_VABUTTONBDBXJGJ_766401 = function(  entities, executeComm
     
     //Obtener el valor desde el formulario padre (Formulario de facturación)
    // const codigoFactura = executeCommandEventArgs.commons.api.parentVc.model.Factura.codigo;
-    entities.Factura.codigo = executeCommandEventArgs.commons.api.parentVc.model.Factura.codigo;
+    entities.DetalleFactura.codigoFactura = executeCommandEventArgs.commons.api.
+                                                parentVc.model.Factura.codigo;
     
     //Obtener el valor de las entidades del grupo Producto
     //let producto =executeCommandEventArgs.commons.api.vc.model.Producto;

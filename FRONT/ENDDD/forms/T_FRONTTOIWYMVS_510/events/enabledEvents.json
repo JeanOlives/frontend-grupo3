@@ -17,6 +17,28 @@
 	},
 	{
 		"attributeName": "",
+		"controlId": "QV_OZ58_ZJI21",
+		"controlName": "QV_OZ58_ZJI21",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "beforeOpenGridDialog",
+				"executionType": 1
+			},
+			{
+				"eventName": "gridRowRendering",
+				"executionType": 1
+			},
+			{
+				"eventName": "rowInserting",
+				"executionType": 1
+			}
+		],
+		"entityName": "DetalleFactura",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "VA_VABUTTONECLWLDA_512877",
 		"controlName": "VA_VABUTTONECLWLDA_512877",
 		"controlType": "Button",
@@ -65,7 +87,7 @@
 		"customEvents": [
 			{
 				"eventName": "onCloseModal",
-				"executionType": 1
+				"executionType": 3
 			}
 		],
 		"entityName": "",

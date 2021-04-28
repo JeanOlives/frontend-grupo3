@@ -4,7 +4,7 @@
 //ViewContainer: FacturacionForm
 task.onCloseModalEvent = function (entities, onCloseModalEventArgs){
 
-    onCloseModalEventArgs.commons.execServer = false;
+    onCloseModalEventArgs.commons.execServer = true;
     let infoCliente;
     let modalHijo = onCloseModalEventArgs.closedViewContainerId;
     

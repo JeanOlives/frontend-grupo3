@@ -39,8 +39,14 @@
 					"customizationLayerDescription": "ECU",
 					"enabled": "T",
 					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						}
 					],
-					"executionType": 1,
+					"executionType": 3,
 					"filter": null,
 					"isEnabled": true,
 					"viewContainerEventType": {
@@ -202,6 +208,105 @@
 							"queryId": "Q_DETACRUA_DQ58",
 							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowInserting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_200QV_OZ58_ZJI21_267",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowInserting",
+									"options": 0,
+									"queryView": "QV_OZ58_ZJI21",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos insertados en una grilla sean comprometidos",
+										"eventId": 200,
+										"name": "RowInserting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								},
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "BeforeOpenGridDialog",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_202QV_OZ58_ZJI21_421",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "BeforeOpenGridDialog",
+									"options": 0,
+									"queryView": "QV_OZ58_ZJI21",
+									"queryViewEventType": {
+										"availableExecutionType": 1,
+										"description": "Evento que se ejecuta antes que una pantalla de inserci\u00f3n o edici\u00f3n de registros aparezca en un contenedor diferente.",
+										"eventId": 202,
+										"name": "BeforeOpenGridDialog"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								},
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "GridRowRendering",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_210QV_OZ58_ZJI21_733",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "GridRowRendering",
+									"options": 0,
+									"queryView": "QV_OZ58_ZJI21",
+									"queryViewEventType": {
+										"availableExecutionType": 1,
+										"description": "Se ejecuta en el evento dataBound de una grilla con los registros visibles, dataview.",
+										"eventId": 210,
+										"name": "GridRowRendering"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								}
 							],
 							"queryViewId": "QV_OZ58_ZJI21",
 							"queryViewType": "Grid",

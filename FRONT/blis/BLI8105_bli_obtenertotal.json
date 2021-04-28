@@ -1,0 +1,97 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_FACTURARY_191",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "Factura"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "163030023"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "T"
+		},
+		{
+			"attributeId": "AT53_CODIGOKY191",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_FACTURARY_191",
+			"format": "",
+			"name": "@i_cf_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"name": "BLI_ObtenerTotal",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8105_bli_obtenertotal",
+	"patternName": "BLI_ObtenerTotal",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "7b39b825-ecae-4420-adbc-5cafc01bf125",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": true,
+			"numberQuery": 3,
+			"queryName": "select cf_total from"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "7b39b825-ecae-4420-adbc-5cafc01bf125",
+			"columns": [
+				{
+					"attributeId": "AT13_TOTALYIW191",
+					"entityId": "EN_FACTURARY_191",
+					"format": "",
+					"name": "{0}",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": true
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_FACTURARY_191",
+			"module": {
+				"moduleId": "FRONT",
+				"moduleName": "FRONT"
+			},
+			"name": "Factura"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "master.sp_gr3_factura",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

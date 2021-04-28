@@ -5,7 +5,7 @@
 //Evento ExecuteCommand: Permite personalizar la acción a ejecutar de un command o de un ActionControl.
 task.executeCommand.VA_VABUTTONBDBXJGJ_766401 = function(  entities, executeCommandEventArgs ) {
 
-    
+    let nav = executeCommandEventArgs.commons.api.navigation;
     //Obtener el valor desde el formulario padre (Formulario de facturación)
    // const codigoFactura = executeCommandEventArgs.commons.api.parentVc.model.Factura.codigo;
     entities.DetalleFactura.codigoFactura = executeCommandEventArgs.commons.api.
@@ -32,5 +32,6 @@ task.executeCommand.VA_VABUTTONBDBXJGJ_766401 = function(  entities, executeComm
     
     executeCommandEventArgs.commons.execServer = true;
     //executeCommandEventArgs.commons.serverParameters.DetalleFactura = true;
+     nav.closeModal({});
 
 };
